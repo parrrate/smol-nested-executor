@@ -1,0 +1,11 @@
+[package]
+name = "smol-nested-executor"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+async-executor = "1.5.0" # smol
+async-io = "2.1.0"       # smol
+async-trait = "^0.1.42"  # executor-trait
+blocking = "1.3.0"       # smol
+executor-trait = "^2.1"  # lapin
