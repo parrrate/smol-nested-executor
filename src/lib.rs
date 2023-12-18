@@ -63,3 +63,5 @@ impl Nested {
         self.executor.run(pending::<()>()).await;
     }
 }
+
+impl executor_trait::FullExecutor for Nested {}
